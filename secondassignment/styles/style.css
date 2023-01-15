@@ -4,6 +4,9 @@
     justify-content: space-between;
     background-color: bisque;
 }
+.headertwo{
+    margin-left: 30px;
+}
 
 
 ul{
@@ -19,25 +22,29 @@ ul{
     padding-top: 10px;
 }
 .sectiontwo{
-    font-size: 50px;
+    font-size: 30px;
+    margin-left: 450px;
 }
 .sectionbutton{
     background-color:orangered;
     padding: 10px 30px;
     border-radius: 20%;
     color: white;
-}
+    }
+    .sectionbutton:hover{
+        transform:rotate(20deg);
+        background-color: coral;
+    }
 .sectiononeimg{
     width: 800px;
     height: 500px;
 }
 
-/* section two */
+/* section two style */
 .sectiontwo{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
-    background-color: red;
     padding: 40px;
 }
 .sectiontwoone{
@@ -45,4 +52,171 @@ ul{
 }
 .sectiontwotwo{
     color:tomato;
+}
+.sectionmain{
+    display: flex;
+    margin-left: 200px;
+}
+.sectiontwothree{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.sectiontwoimg{
+    width: 200px;
+    height: 200px;
+}
+.sectiontwobutton{
+    background-color: orangered;
+    padding: 10px 30px;
+    border-radius: 10%;
+}
+.sectiontwobutton:hover{
+    background-color: darkgray;
+    transform: scale(1, 0.6);
+}
+
+/* section three style */
+.sectionthreeone{
+    margin-left: 80px;
+}
+.sectionthreefour{
+    font-size: 12px;
+}
+.sectionthreefive{
+    width: 400px;
+    height: 600px;
+}
+.sectionthreemain{
+    display: flex;
+    gap: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.sectionthreetwo{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.sectionthreethree{
+    border-left: 0.5rem solid orangered;
+}
+.sectionthreebutton{
+    margin-left: 650px;
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 30px;
+}
+.sectionthreebutton:hover{
+transform: rotate(35deg); 
+background-color: blueviolet;
+
+}
+
+/* section four style */
+.sectionfourmain{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.sectionfourimg, .sectionfourone{
+    margin-left: 30px;
+}
+.sectionfourtwo{
+    border: 1px solid orange;
+    text-align: center;
+
+}
+.sectionfourthree{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* section five style */
+.sectionfive{
+    text-align: center;
+}
+
+/* section six style */
+.sectionsixmain{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+.sectionsiximg{
+    width: 80px;
+    height: 30px;
+}
+/* section seven */
+.sectionsevenmain{
+    text-align: end;
+    background-color:gainsboro;
+}
+/* section eight style */
+.sectioneightmain{
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    
+}
+/* media query */
+@media only screen and (max-width: 576px){
+ul{
+    flex-direction: column;
+}
+.headerone{
+    flex-direction: column;
+}
+.sectiononeimg{
+    width: 250px;
+    height: 250px;
+
+}
+.sectiontwo{
+   grid-template-columns: repeat(1, 1fr);
+   margin-left: 100px;
+}
+.sectionmain{
+    flex-direction: column;
+    margin-left: 20px;
+}
+.sectiontwothree{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.sectionthreemain{
+    flex-direction: column;
+    margin-left: 0px;
+}
+.sectionthreefive{
+    width: 200px;
+    height: 300px;
+    margin-left: 80px;
+}
+.sectionthreebutton{
+    margin-left: 100px;}
+.sectionfourthree{
+    flex-direction: column;
+}
+.sectionfourmain{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.sectionsixmain{
+    flex-direction: column;
+    margin-left: 120px;
+    gap: 50px;
+}
+.sectionsevenmain{
+    text-align:center;
+
+}
+.sectioneightmain{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-left: 0px;
+margin-right: 0px;
 }
