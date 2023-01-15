@@ -5,7 +5,7 @@
     background-color: bisque;
 }
 .headertwo{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 
@@ -20,6 +20,7 @@ ul{
     text-align: center;
     background-color: bisque;
     padding-top: 10px;
+    display: none;
 }
 .sectiontwo{
     font-size: 30px;
@@ -56,7 +57,7 @@ ul{
 .sectionmain{
     display: flex;
     justify-content: center;
-    /* background-color: aqua; */
+   display: none;
 }
 .sectiontwothree{
     margin-top: 150px;
@@ -83,6 +84,9 @@ ul{
 .sectionthreefour{
     font-size: 12px;
 }
+.sectionthreeonly{
+    display: none;
+}
 .sectionthreefive{
     width: 400px;
     height: 600px;
@@ -96,6 +100,7 @@ ul{
 .sectionthreetwo{
     margin-top: 70px;
     margin-left: 70px;
+    font-size: medium;
 }
 .sectionthreethree{
     border-left: 0.5rem solid orangered;
@@ -117,6 +122,7 @@ background-color: blueviolet;
 .sectionfourmain{
     margin-left: 150px;
     margin-right: 150px;
+    display: none;
 }
 .sectionfourimg, .sectionfourone{
     margin-left: 30px;
@@ -134,6 +140,7 @@ background-color: blueviolet;
 /* section five style */
 .sectionfive{
     text-align: center;
+    display: none;
 }
 
 /* section six style */
@@ -142,6 +149,7 @@ background-color: blueviolet;
     justify-content: center;
     gap: 150px;
     margin-top: 50px;
+    display: none;
 }
 .sectionsiximg{
     width: 80px;
@@ -151,6 +159,7 @@ background-color: blueviolet;
 .sectionsevenmain{
     text-align: end;
     background-color:gainsboro;
+    display: none;
 }
 /* section eight style */
 .sectioneightmain{
@@ -161,6 +170,7 @@ background-color: blueviolet;
     margin-left: 250px;
     margin-right: 250px;
     margin-top: 100px;
+    display: none;
     
 }
 /* media query */
@@ -170,6 +180,7 @@ ul{
 }
 .headerone{
     flex-direction: column;
+    width: 400px;
 }
 .sectiononeimg{
     width: 250px;
@@ -188,6 +199,7 @@ ul{
 .sectiontwothree{
     margin-top: 50px;
     margin-left: 0px;
+    font-size: 20px;
 }
 .sectionthreemain{
     flex-direction: column;
