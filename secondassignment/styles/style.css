@@ -1,0 +1,48 @@
+/* Header Style */
+.headerone{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-right: 100px;
+}
+/* section one style */
+.sectionone{
+    text-align: center;
+    background-color: bisque;
+    padding-top: 10px;
+}
+.sectiontwo{
+    font-size: 50px;
+}
+.sectionbutton{
+    background-color:orangered;
+    padding: 10px 30px;
+    border-radius: 20%;
+    color: white;
+}
+.sectiononeimg{
+    width: 800px;
+    height: 500px;
+}
+
+/* section two */
+.sectiontwo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    background-color: red;
+    padding: 40px;
+}
+.sectiontwoone{
+    color:darkgray;
+}
+.sectiontwotwo{
+    color:tomato;
+}
