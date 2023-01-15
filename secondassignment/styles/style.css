@@ -55,7 +55,8 @@ ul{
 }
 .sectionmain{
     display: flex;
-    margin-left: 200px;
+    justify-content: center;
+    /* background-color: aqua; */
 }
 .sectiontwothree{
     margin-top: 150px;
@@ -177,7 +178,8 @@ ul{
 }
 .sectiontwo{
    grid-template-columns: repeat(1, 1fr);
-   margin-left: 100px;
+   margin-left: 0px;
+   padding: 0px;
 }
 .sectionmain{
     flex-direction: column;
