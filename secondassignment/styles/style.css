@@ -20,7 +20,6 @@ ul{
     text-align: center;
     background-color: bisque;
     padding-top: 10px;
-    display: none;
 }
 .sectiontwo{
     font-size: 30px;
@@ -84,9 +83,7 @@ ul{
 .sectionthreefour{
     font-size: 12px;
 }
-.sectionthreeonly{
-    display: none;
-}
+
 .sectionthreefive{
     width: 400px;
     height: 600px;
@@ -122,7 +119,6 @@ background-color: blueviolet;
 .sectionfourmain{
     margin-left: 150px;
     margin-right: 150px;
-    display: none;
 }
 .sectionfourimg, .sectionfourone{
     margin-left: 30px;
@@ -140,7 +136,6 @@ background-color: blueviolet;
 /* section five style */
 .sectionfive{
     text-align: center;
-    display: none;
 }
 
 /* section six style */
@@ -149,7 +144,6 @@ background-color: blueviolet;
     justify-content: center;
     gap: 150px;
     margin-top: 50px;
-    display: none;
 }
 .sectionsiximg{
     width: 80px;
@@ -159,7 +153,6 @@ background-color: blueviolet;
 .sectionsevenmain{
     text-align: end;
     background-color:gainsboro;
-    display: none;
 }
 /* section eight style */
 .sectioneightmain{
@@ -170,7 +163,6 @@ background-color: blueviolet;
     margin-left: 250px;
     margin-right: 250px;
     margin-top: 100px;
-    display: none;
     
 }
 /* media query */
@@ -179,23 +171,19 @@ ul{
     flex-direction: column;
 }
 .headerone{
-    flex-direction: column;
-    width: 400px;
-}
-.sectiononeimg{
-    width: 250px;
-    height: 250px;
-
-}
-.sectiontwo{
-   grid-template-columns: repeat(1, 1fr);
-   margin-left: 0px;
+    flex-direction: column;g
    padding: 0px;
 }
 .sectionmain{
     flex-direction: column;
     margin-left: 20px;
 }
+.sectiontwo{
+    margin-left: 0px;
+}
+.sectiononeimg{
+    width: 300px;
+    height: 300px;}
 .sectiontwothree{
     margin-top: 50px;
     margin-left: 0px;
@@ -233,4 +221,4 @@ ul{
     text-align: center;
     margin-left: 0px;
 margin-right: 0px;
-}
+}}
